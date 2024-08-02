@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #69b6ed;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #69b6ed 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px #69b6ed(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #69b6ed;
+}
+
+article .meta {
+    color: #69b6ed;
+}
+
+article .content {
+    margin-top: 15px;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #8dd9ff;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+footer {
+    background: #69b6ed;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
